@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/mhoyer/projects/CID/CORPUS/k8s-dotnet-configs/K8sConfig.csproj": {}
+  },
+  "projects": {
+    "/home/mhoyer/projects/CID/CORPUS/k8s-dotnet-configs/K8sConfig.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/mhoyer/projects/CID/CORPUS/k8s-dotnet-configs/K8sConfig.csproj",
+        "projectName": "K8sConfig",
+        "projectPath": "/home/mhoyer/projects/CID/CORPUS/k8s-dotnet-configs/K8sConfig.csproj",
+        "packagesPath": "/home/mhoyer/.nuget/packages/",
+        "outputPath": "/home/mhoyer/projects/CID/CORPUS/k8s-dotnet-configs/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/mhoyer/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "(, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

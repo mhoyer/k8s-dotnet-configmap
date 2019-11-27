@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: k8s-config
+spec:
+  containers:
+    - name: k8s-config
+      image: k8s-config:latest
+      imagePullPolicy: Never
+      volumeMounts:
+        - name: k8s-config
+          subPath: appsettings.json
+          mountPath: /app/appsettings.json
+  volumes:
+    - name: k8s-config
+      configMap:
+        name: k8s-config
